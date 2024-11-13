@@ -6,16 +6,34 @@ body{
     background-position: center;
     background-attachment: fixed;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 main{
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(211, 91, 10, 0.2);
     max-width: 75%;
-    margin: 0 auto
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 header{
     text-align: center;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+header p{
+    margin-top: 0;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+a{
+    color: white;
 }
 
 #image{
@@ -23,4 +41,16 @@ header{
     max-width: 100%;
     height: auto;
     margin: 0 auto;
+}
+
+#img-caption{
+    text-align: center;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+#final-msg{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2em;
 }
