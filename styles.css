@@ -25,6 +25,10 @@ header{
 h1{
     margin-bottom: 0;
 }
+h3{
+    text-align: center;
+    font-size: 1.5em;
+}
 
 header p{
     margin-top: 0;
@@ -34,6 +38,19 @@ header p{
 
 a{
     color: white;
+}
+
+a:hover{
+    color: rgba(211, 91, 10, 0.5);
+    background-color: white;
+}
+
+ul > li > p{
+    margin-top: 2px;
+}
+
+#img-div{
+    padding-bottom: 20px;
 }
 
 #image{
@@ -47,6 +64,14 @@ a{
     text-align: center;
     font-size: 0.8em;
     font-style: italic;
+}
+
+#sub{
+    padding-bottom: 15px;
+}
+
+#last-p{
+    padding-top: 20px;
 }
 
 #final-msg{
