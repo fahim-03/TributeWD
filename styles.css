@@ -1,0 +1,26 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    background-image: url("https://wallpapers.com/images/hd/explode-sage-mode-faceless-naruto-4k-pc-nzlc2hx4j92ic97j.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.3);
+    max-width: 75%;
+    margin: 0 auto
+}
+
+header{
+    text-align: center;
+}
+
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
